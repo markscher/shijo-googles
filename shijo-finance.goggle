@@ -1,0 +1,150 @@
+! name: Shijō Finance News
+! description: Boosted Tier-1 Finanzquellen (INT + DACH + ETF-spezifisch), diskardierte Auto-Content-Farmen und 13F-Scraper. Optimiert für Aktien- und ETF-Analyse Workflows.
+! public: false
+! author: Shijō AI
+! avatar: #1a56db
+
+! ─────────────────────────────────────────────────────────────────────────────
+! TIER 1 — Internationale Finanz-Leitmedien  ($boost=10)
+! ─────────────────────────────────────────────────────────────────────────────
+
+$boost=10,site=bloomberg.com
+$boost=10,site=reuters.com
+$boost=10,site=ft.com
+$boost=10,site=wsj.com
+$boost=10,site=economist.com
+$boost=10,site=cnbc.com
+$boost=10,site=apnews.com
+$boost=10,site=nytimes.com
+$boost=10,site=theguardian.com
+
+! ─────────────────────────────────────────────────────────────────────────────
+! TIER 2 — Starke Finanzmedien & Analyse  ($boost=8)
+! ─────────────────────────────────────────────────────────────────────────────
+
+$boost=8,site=marketwatch.com
+$boost=8,site=barrons.com
+$boost=8,site=morningstar.com
+$boost=8,site=seekingalpha.com
+$boost=8,site=investing.com
+$boost=8,site=yahoo.com/finance
+$boost=8,site=finance.yahoo.com
+$boost=8,site=businessinsider.com
+$boost=8,site=fortune.com
+$boost=8,site=forbes.com
+$boost=8,site=thestreet.com
+$boost=8,site=zerohedge.com
+
+! ─────────────────────────────────────────────────────────────────────────────
+! TIER 1 DACH — Deutschsprachige Leitmedien  ($boost=9)
+! ─────────────────────────────────────────────────────────────────────────────
+
+$boost=9,site=handelsblatt.com
+$boost=9,site=manager-magazin.de
+$boost=9,site=wirtschaftswoche.de
+$boost=9,site=faz.net
+$boost=9,site=sueddeutsche.de
+$boost=9,site=zeit.de
+$boost=9,site=derstandard.at
+$boost=9,site=nzz.ch
+
+! ─────────────────────────────────────────────────────────────────────────────
+! TIER 2 DACH — Börse & Finanzportale  ($boost=7)
+! ─────────────────────────────────────────────────────────────────────────────
+
+$boost=7,site=boerse-online.de
+$boost=7,site=boerse-express.at
+$boost=7,site=finanzen.net
+$boost=7,site=onvista.de
+$boost=7,site=finanznachrichten.de
+$boost=7,site=boersen-zeitung.de
+$boost=7,site=comdirect.de
+$boost=7,site=consorsbank.de
+$boost=7,site=dws.com
+$boost=7,site=fondsprofessionell.de
+
+! ─────────────────────────────────────────────────────────────────────────────
+! ETF-SPEZIFISCH  ($boost=9)
+! ─────────────────────────────────────────────────────────────────────────────
+
+$boost=9,site=justetf.com
+$boost=9,site=extraetf.com
+$boost=9,site=etf.com
+$boost=9,site=etfdb.com
+$boost=8,site=fondsweb.com
+$boost=8,site=trackinsight.com
+$boost=7,site=etfstrategy.com
+$boost=7,site=etftrends.com
+
+! ─────────────────────────────────────────────────────────────────────────────
+! OFFIZIELLE QUELLEN — Notenbanken, Regulatoren  ($boost=10)
+! ─────────────────────────────────────────────────────────────────────────────
+
+$boost=10,site=federalreserve.gov
+$boost=10,site=ecb.europa.eu
+$boost=10,site=sec.gov
+$boost=10,site=bafin.de
+$boost=10,site=bundesbank.de
+$boost=10,site=bis.org
+$boost=10,site=imf.org
+$boost=10,site=worldbank.org
+$boost=10,site=eurostat.ec.europa.eu
+
+! ─────────────────────────────────────────────────────────────────────────────
+! NACHRICHTENAGENTUREN  ($boost=9)
+! ─────────────────────────────────────────────────────────────────────────────
+
+$boost=9,site=dpa.com
+$boost=9,site=afp.com
+$boost=9,site=marketscreener.com
+
+! ─────────────────────────────────────────────────────────────────────────────
+! DISCARD — 13F Auto-Content Farmen (SEC-Filing Scraper)
+! Diese Seiten scrapen institutionelle Holdings-Meldungen und
+! publishen sie automatisiert als "News" — kein redaktioneller Mehrwert
+! ─────────────────────────────────────────────────────────────────────────────
+
+$discard,site=baseballnewssource.com
+$discard,site=thelincolnianonline.com
+$discard,site=americanbankingnews.com
+$discard,site=defenseworld.net
+$discard,site=watchlistnews.com
+$discard,site=tickerreport.com
+$discard,site=bbns.com
+$discard,site=markets.businessinsider.com
+$discard,site=macon.daily
+$discard,site=chestercountyramblings.com
+$discard,site=modernreaders.com
+$discard,site=wkrb13.com
+$discard,site=issuewire.com
+$discard,site=reportedtimes.com
+$discard,site=themarketsdaily.com
+$discard,site=stocknews.com
+$discard,site=etfdailynews.com
+$discard,site=nasdaqglobalmedia.com
+$discard,site=heliosaerogroup.com
+$discard,site=wsnewspublishers.com
+
+! ─────────────────────────────────────────────────────────────────────────────
+! DISCARD — Auto-Content & SEO-Spam (allgemein)
+! ─────────────────────────────────────────────────────────────────────────────
+
+$discard,site=sssgramm.com
+$discard,site=sssgramm.net
+$discard,site=stockstoday.com
+$discard,site=boerse-global.de
+$discard,site=darwinex.com
+$discard,site=prodara.com
+$discard,site=elclubdeinversion.com
+$discard,site=finanzmarktwelt.de
+
+! ─────────────────────────────────────────────────────────────────────────────
+! DOWNRANK — Tier-3 / Aggregatoren mit wenig Eigenrecherche  ($downrank=5)
+! Nicht discard — können gelegentlich nützliche Artikel haben
+! ─────────────────────────────────────────────────────────────────────────────
+
+$downrank=5,site=tipranks.com
+$downrank=5,site=simply wall st.com
+$downrank=5,site=simplywall.st
+$downrank=4,site=fool.com
+$downrank=3,site=benzinga.com
