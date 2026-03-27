@@ -15,7 +15,6 @@ $boost=10,site=wsj.com
 $boost=10,site=economist.com
 $boost=10,site=cnbc.com
 $boost=10,site=apnews.com
-
 $boost=10,site=nytimes.com
 $boost=10,site=theguardian.com
 
@@ -138,6 +137,8 @@ $discard,site=darwinex.com
 $discard,site=prodara.com
 $discard,site=elclubdeinversion.com
 $discard,site=finanzmarktwelt.de
+$discard,site=ad-hoc-news.de
+$discard,site=adhoc-news.de
 
 ! ─────────────────────────────────────────────────────────────────────────────
 ! DOWNRANK — Tier-3 / Aggregatoren mit wenig Eigenrecherche  ($downrank=5)
