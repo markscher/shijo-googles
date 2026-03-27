@@ -139,6 +139,14 @@ $discard,site=elclubdeinversion.com
 $discard,site=finanzmarktwelt.de
 $discard,site=ad-hoc-news.de
 $discard,site=adhoc-news.de
+$discard,site=analyticsinsight.net
+$discard,site=vocal.media
+$discard,site=stock-world.de
+$discard,site=webdisclosure.com
+$discard,site=dental-wirtschaft.de
+$discard,site=heise.de
+$discard,site=estrategiasdeinversion.com
+$discard,site=cyprus-mail.com
 
 ! ─────────────────────────────────────────────────────────────────────────────
 ! DOWNRANK — Tier-3 / Aggregatoren mit wenig Eigenrecherche  ($downrank=5)
@@ -146,7 +154,7 @@ $discard,site=adhoc-news.de
 ! ─────────────────────────────────────────────────────────────────────────────
 
 $downrank=5,site=tipranks.com
-$downrank=5,site=simply wall st.com
 $downrank=5,site=simplywall.st
 $downrank=4,site=fool.com
 $downrank=3,site=benzinga.com
+$downrank=4,site=tradingview.com
